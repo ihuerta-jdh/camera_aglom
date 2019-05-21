@@ -23,6 +23,8 @@ namespace ConsoleApp1.Objects
         static public byte PIXEL_SURROUNDED_UP = 0b010;
         static public byte PIXEL_SURROUNDED_DOWN = 0b1000;
 
+        public int MaxDistance { get; set; }
+
         public int SegmentId { get; set; }
         public List<SegmentPixelData> PixelData { get; set; }
         public float[] Center
